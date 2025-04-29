@@ -65,11 +65,17 @@ pnpm run dev    # 启动开发服务器
 
 ```
 ├── src/
+│   ├── api/       	  # 接口定义
 │   ├── assets/       # 静态资源
 │   ├── components/   # 公共组件
+│   ├── directives/   # 指令
+│   ├── hooks/        # 自定义 Hooks
+│   ├── layouts/      # 布局组件
+│   ├── plugins/      # 插件引用
 │   ├── router/       # 路由配置
 │   ├── stores/       # Pinia 状态管理
 │   ├── styles/       # 全局样式
+│   ├── utils/        # 工具类函数
 │   ├── views/        # 页面组件
 │   ├── App.vue       # 根组件
 │   └── main.ts       # 入口文件
